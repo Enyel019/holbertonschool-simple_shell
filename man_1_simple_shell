@@ -1,0 +1,35 @@
+.\" Manpage for Simple Shell.
+.\" Contact jimoem24@gmail.com and Enyelfm@gmail.com to correct errors or typos.
+.TH HSH 1 "08 Nov 2022" "1.0" "Holberton Simple Shell"
+.SH NAME
+    Holberton Simple Shell
+
+.SH SYNOPSIS 
+    hsh
+
+.SH DESCRIPTION
+    The  Holberton Simple Shell is a command language interpeter that executes commands 
+    of the kernel trough standar input. Shell input and output redirections 
+    have an implementation defined offset maximum that is established in the
+    open file description.
+
+
+.SH OPERANDS
+
+        -        A single <hyphen-minus> shall be treated as the first
+                 operand and then ignored. If both '-' and "--" are
+                 given as arguments, or if other operands precede the
+                 single <hyphen-minus>, the results are undefined.
+
+    argument     The positional parameters ($1, $2, and so on) shall be
+                 set to arguments, if any.
+
+
+
+.SH BUGS
+    None at the moment.
+
+.SH AUTHOR
+
+- Jimmy Hernandez Rivera
+- Enyel Feliz Mercado
