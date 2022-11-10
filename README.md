@@ -1,4 +1,5 @@
-![Hoberton School Logo]https://blog.holbertonschool.com/wp-content/uploads/2019/04/instagram_feed180.jpg
+
+![Logo shell](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg) 
 # simple_shell project repository
 
 This repository contains the files for Holberton's **simple_shell**. It can be compiled using GCC and will execute a simple shell that can be used for some basic tasks and programs most commonly found in the /bin/ folder.
