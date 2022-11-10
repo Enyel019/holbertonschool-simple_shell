@@ -72,3 +72,6 @@ RADME.md: this.
 
 
 ### Contact Info:
+- Enyel Feliz Mercado <Enyelfm@gmail.com>
+- Jimmy Hernandez Rivera <jimoem24@gmail.com>
+
