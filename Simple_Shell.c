@@ -18,9 +18,11 @@ int main(void)
 	if (PATH == NULL)
 		return (-1);
 
-	/*It will prompt the user for input, read the input, 
-	tokenize the input, check for builtins, and fork a 
-	process to execute the command. */
+	/**
+	*It will prompt the user for input, read the input,
+	*tokenize the input, check for builtins, and fork a
+	*process to execute the command.
+	*/
 	while (1)
 	{
 		av = NULL;
@@ -34,8 +36,6 @@ int main(void)
 				free(buffer);
 				continue;
 			}
-			/* This is checking for builtins, and if there are none, 
-			it will fork a process to execute the command. */
 			fullpathbuffer = _fullpathbuffer(av, PATH, copy);
 			if (checkbuiltins(av, buffer, exitstatus) == 1)
 				continue;
