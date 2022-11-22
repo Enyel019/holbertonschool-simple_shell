@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _strdup - duplicates a string and returns a pointer (copy) 
+ * _strdup - duplicates a string and returns a pointer (copy)
  *			 to a newly allocated space in memory.
  * @str: pointer to string to duplicate
  * Return: pointer to duplicated string
@@ -13,7 +13,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (NULL);
-	
+
 	for (i = 0; str[i] != '\0'; i++)
 		{ ; }
 
@@ -56,7 +56,7 @@ int _splitstring(char *str)
 }
 
 /**
- * _strcmp - It compares two strings, and returns the 
+ * _strcmp - It compares two strings, and returns the
  *        difference between the first two characters.
  *@s1: This is the first string to be compared.
  *@s2: The string to compare to s1.
@@ -76,9 +76,9 @@ int _strcmp(const char *s1, const char *s2)
 }
 
 /**
- * _strcat - It appends the string pointed to by src to 
+ * _strcat - It appends the string pointed to by src to
  * the end of the string pointed to by dest.
- * 
+ *
  *@dest: This is the string that will be appended to.
  *@src: This is the string that will be appended to the end of dest.
  *Return: The pointer to the destination string.
