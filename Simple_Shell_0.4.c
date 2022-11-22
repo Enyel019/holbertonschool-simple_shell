@@ -30,7 +30,7 @@ char **tokenize(char *buffer)
 }
 
 /**
- * _splitPATH - It counts the number of words in a string, 
+ * _splitPATH - It counts the number of words in a string,
  *				where words are separated by colons.
  *@str: The string to be split.
  *Return: The number of PATH in the string.
@@ -76,9 +76,8 @@ int _PATHstrcmp(const char *s1, const char *s2)
 }
 
 /**
- * _concat - It concatenates the token, a slash, and 
+ * _concat - It concatenates the token, a slash, and
  *			  the first argument of the command line.
- * 
  * @tmp: a pointer to a char array.
  * @av: The array of arguments passed to the program.
  * @tok: The tokenized string from the PATH environment variable.
