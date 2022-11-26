@@ -13,7 +13,6 @@
     have an implementation defined offset maximum that is established in the
     open file description.
 
-
 .SH OPERANDS
 
         -        A single <hyphen-minus> shall be treated as the first
@@ -25,11 +24,49 @@
                  set to arguments, if any.
 
 
+.SH EXAMPLES
+
+    Interactive mode:
+
+                $ ./hsh
+                ($) /bin/ls
+                hsh main.c shell.c
+                ($)
+                ($) exit
+                $
+
+    Non-interactive mode:
+
+                $ echo "/bin/ls" | ./hsh
+                hsh main.c shell.c test_ls_2
+                $
+                $ cat test_ls_2
+                /bin/ls
+                /bin/ls
+                $
+                $ cat test_ls_2 | ./hsh
+                hsh main.c shell.c test_ls_2
+                hsh main.c shell.c test_ls_2
+                $
+
+.SH ENVIRONMENT VARIABLES:
+
+    ENV         This variable, when and only when an interactive shell
+                 is invoked, shall be subjected to parameter expansion
+                 by the shell, and the resulting value shall be used as
+                 a pathname of a file containing shell commands to exe-
+                 cute in the current environment.  
+
+    PWD         An absolute pathname of the current working directory.
 
 .SH BUGS
     None at the moment.
 
 .SH AUTHOR
 
-- Jimmy Hernandez Rivera
-- Enyel Feliz Mercado
+Jimmy Hernandez Rivera
+Enyel Feliz Mercado
+
+.SH COPYRIGHT
+
+This project is licensed under the Holberton School Software Engineering Program.
