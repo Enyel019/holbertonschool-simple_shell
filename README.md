@@ -101,7 +101,9 @@ Brief description of functions contained in project:
 - `char *_memset(char *s, char b, unsigned int n);` This function is used to fill the first n bytes of the memory area pointed 
 to by s with the constant byte b.
 
-RADME.md: this.
+
+# Simple Shell Flowchart
+![Flowchart Shell](https://miro.medium.com/max/640/1*nR6GwCthQTJxkpH_EFmWTA.webp) 
 
 ### Contact Info:
 - Enyel Feliz Mercado <Enyelfm@gmail.com>
